@@ -45,6 +45,46 @@ return [
             'name' => env('AIRTABLE_TABLE'),
         ],
 
+        'course' => [
+            'name' => env('AIRTABLE_COURSE_TABLE', 'Курс'),
+        ],
+
+        'user' => [
+            'name' => env('AIRTABLE_USER_TABLE', 'Пользователь'),
+        ],
+
+        'course_set' => [
+            'name' => env('AIRTABLE_COURSE_SET_TABLE', 'Постановка курса'),
+        ],
+
+        'lesson' => [
+            'name' => env('AIRTABLE_LESSON_TABLE', 'Уроки'),
+        ],
+
+        'role' => [
+            'name' => env('AIRTABLE_ROLE_TABLE', 'Роль'),
+        ],
+
+        'channel' => [
+            'name' => env('AIRTABLE_CHANNEL_TABLE', 'Каналы'),
+        ],
+
+        'user_channel' => [
+            'name' => env('AIRTABLE_USER_CHANNEL_TABLE', 'Канал пользователя'),
+        ],
+
+        'user_lesson' => [
+            'name' => env('AIRTABLE_USER_LESSON_TABLE', 'Уроки_пользователей'),
+        ],
+
+        'test' => [
+            'name' => env('AIRTABLE_TEST_TABLE', 'Тест'),
+        ],
+
+        'answer' => [
+            'name' => env('AIRTABLE_ANSWER_TABLE', 'Ответы'),
+        ],
+
     ],
 
     'log_http' => env('AIRTABLE_LOG_HTTP', false),
